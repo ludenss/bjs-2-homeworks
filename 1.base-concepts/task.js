@@ -1,4 +1,5 @@
 "use strict"
+task 1
 
 function solveEquation(a, b, c) {
   let arr = [];
@@ -15,6 +16,8 @@ function solveEquation(a, b, c) {
   return arr;
 }
 
+task 2
+
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   let interestRate = percent / 100 / 12; 
   let creditBody = amount - contribution;
@@ -24,3 +27,8 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   return roundedFullPayment;
 }
  
+calculateTotalMortgage(10, 0, 50000, 12);
+calculateTotalMortgage(10, 1000, 50000, 12);
+calculateTotalMortgage(10, 0, 20000, 24);
+calculateTotalMortgage(10, 1000, 20000, 24);
+calculateTotalMortgage(10, 20000, 20000, 24);
